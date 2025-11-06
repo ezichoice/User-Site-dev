@@ -1,0 +1,94 @@
+/* src/styles/customResponsive.css */
+
+/* Base styles (mobile-first) */
+.customDiv h1 {
+  font-size: 2rem !important; /* Mobile default size for h1 */
+}
+
+.customDiv h2 {
+  font-size: 1.75rem !important; /* Mobile default size for h2 */
+}
+
+.customDiv h3 {
+  font-size: 1.5rem; /* Mobile default size for h3 */
+}
+
+.customDiv h4 {
+  font-size: 1.25rem; /* Mobile default size for h4 */
+}
+
+.customDiv h5 {
+  font-size: 0.25rem; /* Mobile default size for h5 */
+}
+
+.customDiv h6 {
+  font-size: 0.875rem; /* Mobile default size for h6 */
+}
+
+.customDiv p {
+  font-size: 0.25rem; /* Mobile default size for paragraphs */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 0.25rem; /* Spacing below paragraphs */
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) {
+  .customDiv h1 {
+    font-size: 2.5rem; /* Tablet size for h1 */
+  }
+
+  .customDiv h2 {
+    font-size: 2rem; /* Tablet size for h2 */
+  }
+
+  .customDiv h3 {
+    font-size: 1.75rem; /* Tablet size for h3 */
+  }
+
+  .customDiv h4 {
+    font-size: 1.5rem; /* Tablet size for h4 */
+  }
+
+  .customDiv h5 {
+    font-size: 1.25rem; /* Tablet size for h5 */
+  }
+
+  .customDiv h6 {
+    font-size: 0.25rem; /* Tablet size for h6 */
+  }
+
+  .customDiv p {
+    font-size: 1.125rem; /* Tablet size for paragraphs */
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .customDiv h1 {
+    font-size: 3rem; /* Desktop size for h1 */
+  }
+
+  .customDiv h2 {
+    font-size: 2.5rem; /* Desktop size for h2 */
+  }
+
+  .customDiv h3 {
+    font-size: 2rem; /* Desktop size for h3 */
+  }
+
+  .customDiv h4 {
+    font-size: 1.75rem; /* Desktop size for h4 */
+  }
+
+  .customDiv h5 {
+    font-size: 1.5rem; /* Desktop size for h5 */
+  }
+
+  .customDiv h6 {
+    font-size: 1.25rem; /* Desktop size for h6 */
+  }
+
+  .customDiv p {
+    font-size: 1.25rem; /* Desktop size for paragraphs */
+  }
+}
